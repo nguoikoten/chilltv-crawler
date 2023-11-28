@@ -1,0 +1,29 @@
+{
+    "name": "chilltvpack/chilltv-crawler",
+    "description": "Chilltv",
+    "type": "package",
+    "require": {
+        "chilltvpack/chilltv-core": "^1.0.0",
+        "intervention/image": "^2.7"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Chilltv\\Crawler\\ChilltvCrawler\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Chilltv",
+            "email": "info@Chilltv.xyz"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Chilltv\\Crawler\\ChilltvCrawler\\ChilltvCrawlerServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}
